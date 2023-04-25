@@ -20,7 +20,7 @@ interface Props {
   };
 }
 /* @figmaId 0:422 */
-export const SampleLogo: FC<Props> = memo(function SampleLogo(props = {}) {
+export const Logo: FC<Props> = memo(function SampleLogo(props = {}) {
   return (
     <div className={`${resets.storybrainResets} ${props.classes?.root || ''} ${props.className || ''} ${classes.root}`}>
       {props.text?.photo != null ? props.text?.photo : <div className={classes.photo}>photo</div>}

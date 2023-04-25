@@ -3,13 +3,13 @@ import type { FC } from 'react';
 
 import resets from '../../_resets.module.css';
 import { Button } from '../Button/Button';
-import classes from './Block19.module.css';
+import classes from './ResourcesBlock.module.css';
 
 interface Props {
   className?: string;
 }
 /* @figmaId 113:271 */
-export const Block19: FC<Props> = memo(function Block19(props = {}) {
+export const ResourcesBlock: FC<Props> = memo(function Block19(props = {}) {
   return (
     <div className={`${resets.storybrainResets} ${classes.root}`}>
       <div className={classes.frame}>

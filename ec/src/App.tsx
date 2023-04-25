@@ -3,7 +3,7 @@ import type { FC } from 'react';
 
 import classes from './App.module.css';
 import resets from './components/_resets.module.css';
-import { SampleWireframe } from './components/SampleWireframe/SampleWireframe';
+import { Wireframe } from './components/Wireframe/Wireframe';
 
 interface Props {
   className?: string;
@@ -11,7 +11,7 @@ interface Props {
 export const App: FC<Props> = memo(function App(props = {}) {
   return (
     <div className={`${resets.storybrainResets} ${classes.root}`}>
-      <SampleWireframe />
+      <Wireframe />
     </div>
   );
 });

@@ -2,7 +2,7 @@ import { memo } from 'react';
 import type { FC, ReactNode } from 'react';
 
 import resets from '../../_resets.module.css';
-import classes from './Button2.module.css';
+import classes from './FollowText.module.css';
 
 interface Props {
   className?: string;
@@ -10,15 +10,18 @@ interface Props {
     root?: string;
   };
   text?: {
-    register?: ReactNode;
+    followText?: ReactNode;
   };
 }
-/* @figmaId 0:436 */
-export const Button2: FC<Props> = memo(function Button2(props = {}) {
+/* @figmaId 0:450 */
+export const FollowText: FC<Props> = memo(function FollowText(props = {}) {
   return (
     <div className={`${resets.storybrainResets} ${props.classes?.root || ''} ${props.className || ''} ${classes.root}`}>
-      <div className={classes.rectangle2}></div>
-      {props.text?.register != null ? props.text?.register : <div className={classes.register}>Register</div>}
+      {props.text?.followText != null ? (
+        props.text?.followText
+      ) : (
+        <div className={classes.followText}></div>
+      )}
     </div>
   );
 });

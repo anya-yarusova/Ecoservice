@@ -2,7 +2,7 @@ import { memo } from 'react';
 import type { FC } from 'react';
 
 import resets from '../../_resets.module.css';
-import classes from './Block26.module.css';
+import classes from './CalendarBlock.module.css';
 import { FrameIcon2 } from './FrameIcon2.js';
 import { FrameIcon3 } from './FrameIcon3.js';
 import { FrameIcon4 } from './FrameIcon4.js';
@@ -14,7 +14,7 @@ interface Props {
   className?: string;
 }
 /* @figmaId 116:258 */
-export const Block26: FC<Props> = memo(function Block26(props = {}) {
+export const CalendarBlock: FC<Props> = memo(function CalendarBlock(props = {}) {
   return (
     <div className={`${resets.storybrainResets} ${classes.root}`}>
       <div className={classes.frame}>
