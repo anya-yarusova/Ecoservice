@@ -9,16 +9,12 @@ interface Props {
   classes?: {
     root?: string;
   };
-  text?: {
-    register?: ReactNode;
-  };
 }
-/* @figmaId 0:436 */
+
 export const JoinButton: FC<Props> = memo(function JoinButton(props = {}) {
   return (
     <div className={`${resets.storybrainResets} ${props.classes?.root || ''} ${props.className || ''} ${classes.root}`}>
-      <div className={classes.rectangle2}></div>
-      {props.text?.register != null ? props.text?.register : <div className={classes.register}>Register</div>}
+      <button className={classes.joinTodayButton}>Присоединиться</button>
     </div>
   );
 });

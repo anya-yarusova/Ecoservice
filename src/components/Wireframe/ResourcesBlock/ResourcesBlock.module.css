@@ -137,7 +137,7 @@
   white-space: nowrap;
   flex-direction: column;
 }
-.unnamed3 {
+.navigation {
   color: #000c;
   font-size: 16px;
   line-height: 160%;
@@ -258,7 +258,7 @@
   align-items: center;
   flex-direction: column;
 }
-.unnamed8 {
+.logoText {
   color: #000;
   font-size: 20px;
   line-height: 100%;
@@ -293,7 +293,7 @@
   height: 567px;
   align-items: flex-start;
 }
-.rectangle2 {
+.joinTodayButton {
   position: absolute;
   left: 65.673%;
   right: 0;
