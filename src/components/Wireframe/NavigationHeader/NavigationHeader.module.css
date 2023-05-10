@@ -1,3 +1,8 @@
+.root {
+    width: 100%;
+    height: 2%;
+    overflow: hidden;
+}
 
 .logoHeader {
     position: relative;
@@ -5,16 +10,10 @@
     margin-top: 18px;
 }
 
-.root {
-    width: 100%;
-    overflow: hidden;
-}
-
 .navigationLinks {
     position: absolute;
     right: 20px;
 }
-
 
 .navigation {
     color: #009d00;

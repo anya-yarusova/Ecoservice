@@ -22,9 +22,7 @@ interface Props {
 export const Wireframe: FC<Props> = memo(function Wireframe(props = {}) {
   return (
     <div className={`${resets.storybrainResets} ${classes.root}`}>
-        <div className={classes.navigationHeader}>
-            <NavigationHeader />
-        </div>
+        <NavigationHeader />
         <div className={classes.followBlock}>
             <StartBlock />
             <div className={classes.followText}>Присоединяйтесь к нашей миссии по спасению планеты</div>
