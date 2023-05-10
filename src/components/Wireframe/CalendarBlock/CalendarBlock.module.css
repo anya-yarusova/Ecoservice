@@ -8,7 +8,7 @@
   background-color: #fff;
   overflow: hidden;
 }
-.frame {
+.cards {
   position: absolute;
   left: 1335px;
   top: 308px;
@@ -30,7 +30,7 @@
   background-color: #d7ffec;
   overflow: hidden;
 }
-.unnamed {
+.cardIcon {
   color: #000c;
   font-size: 14px;
   line-height: 100%;
@@ -44,7 +44,7 @@
   white-space: nowrap;
   flex-direction: column;
 }
-.unnamed2 {
+.cardTitle {
   color: #000;
   font-size: 24px;
   line-height: 120%;
@@ -59,7 +59,7 @@
   height: min-content;
   flex-direction: column;
 }
-.frame2 {
+.card {
   position: absolute;
   left: 24px;
   top: 498px;
@@ -84,7 +84,7 @@
   width: 20px;
   height: 20px;
 }
-.icon {
+.cardIcon {
   width: 100%;
   height: 100%;
 }
@@ -339,7 +339,7 @@
   white-space: nowrap;
   flex-direction: column;
 }
-.unnamed10 {
+.weOffer {
   color: #000;
   font-size: 24px;
   line-height: 120%;
@@ -363,7 +363,7 @@
   align-items: flex-start;
   overflow: hidden;
 }
-.unnamed11 {
+.platformFor {
   color: #000;
   font-size: 16px;
   line-height: 100%;
