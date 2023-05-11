@@ -4,7 +4,7 @@ import { EventApi, EventInput } from '@fullcalendar/core';
 /* Chart.js Types */
 import { ChartData, ChartOptions } from 'chart.js';
 
-type InventoryStatus = 'INSTOCK' | 'LOWSTOCK' | 'OUTOFSTOCK';
+type EGEStatus = 'БАЛЛЫ К ЕГЭ' | '';
 
 type Status = 'DELIVERED' | 'PENDING' | 'RETURNED' | 'CANCELLED';
 
@@ -124,13 +124,13 @@ declare namespace Demo {
         name: string;
         description: string;
         image?: string;
-        price?: number;
-        category?: string;
+        place?: string;
+        date?: string;
         quantity?: number;
-        inventoryStatus?: InventoryStatus;
+        EGEStatus?: EGEStatus;
         rating?: number;
         orders?: ProductOrder[];
-        [key: string]: string | string[] | number | boolean | undefined | ProductOrder[] | InventoryStatus;
+        [key: string]: string | string[] | number | boolean | undefined | ProductOrder[] | EGEStatus;
     };
 
     type ProductOrder = {

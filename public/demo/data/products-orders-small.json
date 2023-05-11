@@ -6,10 +6,10 @@
 			"name": "Bamboo Watch",
 			"description": "Product Description",
 			"image": "bamboo-watch.jpg",
-			"price": 65,
-			"category": "Accessories",
+			"place": 65,
+			"date": "Accessories",
 			"quantity": 24,
-			"inventoryStatus": "INSTOCK",
+			"EGEStatus": "INSTOCK",
             "rating": 5,
             "orders": [
                 {
@@ -56,10 +56,10 @@
 			"name": "Black Watch",
 			"description": "Product Description",
 			"image": "black-watch.jpg",
-			"price": 72,
-			"category": "Accessories",
+			"place": 72,
+			"date": "Accessories",
 			"quantity": 61,
-			"inventoryStatus": "INSTOCK",
+			"EGEStatus": "INSTOCK",
             "rating": 4,
             "orders": [
                 {
@@ -88,10 +88,10 @@
 			"name": "Blue Band",
 			"description": "Product Description",
 			"image": "blue-band.jpg",
-			"price": 79,
-			"category": "Fitness",
+			"place": 79,
+			"date": "Fitness",
 			"quantity": 2,
-			"inventoryStatus": "LOWSTOCK",
+			"EGEStatus": "LOWSTOCK",
             "rating": 3,
             "orders": [
                 {
@@ -120,10 +120,10 @@
 			"name": "Blue T-Shirt",
 			"description": "Product Description",
 			"image": "blue-t-shirt.jpg",
-			"price": 29,
-			"category": "Clothing",
+			"place": 29,
+			"date": "Clothing",
 			"quantity": 25,
-			"inventoryStatus": "INSTOCK",
+			"EGEStatus": "INSTOCK",
             "rating": 5,
             "orders": []
 		},
@@ -133,10 +133,10 @@
 			"name": "Bracelet",
 			"description": "Product Description",
 			"image": "bracelet.jpg",
-			"price": 15,
-			"category": "Accessories",
+			"place": 15,
+			"date": "Accessories",
 			"quantity": 73,
-			"inventoryStatus": "INSTOCK",
+			"EGEStatus": "INSTOCK",
             "rating": 4,
             "orders": [
                 {
@@ -165,10 +165,10 @@
 			"name": "Brown Purse",
 			"description": "Product Description",
 			"image": "brown-purse.jpg",
-			"price": 120,
-			"category": "Accessories",
+			"place": 120,
+			"date": "Accessories",
 			"quantity": 0,
-			"inventoryStatus": "OUTOFSTOCK",
+			"EGEStatus": "OUTOFSTOCK",
             "rating": 4,
             "orders": [
                 {
@@ -206,10 +206,10 @@
 			"name": "Chakra Bracelet",
 			"description": "Product Description",
 			"image": "chakra-bracelet.jpg",
-			"price": 32,
-			"category": "Accessories",
+			"place": 32,
+			"date": "Accessories",
 			"quantity": 5,
-			"inventoryStatus": "LOWSTOCK",
+			"EGEStatus": "LOWSTOCK",
             "rating": 3,
             "orders": [
                 {
@@ -238,10 +238,10 @@
 			"name": "Galaxy Earrings",
 			"description": "Product Description",
 			"image": "galaxy-earrings.jpg",
-			"price": 34,
-			"category": "Accessories",
+			"place": 34,
+			"date": "Accessories",
 			"quantity": 23,
-			"inventoryStatus": "INSTOCK",
+			"EGEStatus": "INSTOCK",
             "rating": 5,
             "orders": [
                 {
@@ -261,10 +261,10 @@
 			"name": "Game Controller",
 			"description": "Product Description",
 			"image": "game-controller.jpg",
-			"price": 99,
-			"category": "Electronics",
+			"place": 99,
+			"date": "Electronics",
 			"quantity": 2,
-			"inventoryStatus": "LOWSTOCK",
+			"EGEStatus": "LOWSTOCK",
             "rating": 4,
             "orders": [
                 {
@@ -293,10 +293,10 @@
 			"name": "Gaming Set",
 			"description": "Product Description",
 			"image": "gaming-set.jpg",
-			"price": 299,
-			"category": "Electronics",
+			"place": 299,
+			"date": "Electronics",
 			"quantity": 63,
-			"inventoryStatus": "INSTOCK",
+			"EGEStatus": "INSTOCK",
             "rating": 3,
             "orders": [
                 {
