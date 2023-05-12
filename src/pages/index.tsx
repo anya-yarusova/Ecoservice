@@ -45,7 +45,7 @@ const LandingPage: Page = () => {
                         <div className={classNames('align-items-center surface-0 flex-grow-1 justify-content-between hidden lg:flex absolute lg:static w-full left-0 px-6 lg:px-0 z-2', { hidden: isHidden })} style={{ top: '100%' }}>
                             <ul className="list-none p-0 m-0 flex lg:align-items-center select-none flex-column lg:flex-row cursor-pointer">
                                 <li>
-                                    <a href="#home" onClick={toggleMenuItemClick} className="p-ripple flex m-0 md:ml-5 px-0 py-3 text-900 font-medium line-height-3">
+                                    <a href="/about" onClick={toggleMenuItemClick} className="p-ripple flex m-0 md:ml-5 px-0 py-3 text-900 font-medium line-height-3">
                                         <span>О нас</span>
                                         <Ripple />
                                     </a>
@@ -57,13 +57,13 @@ const LandingPage: Page = () => {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#highlights" onClick={toggleMenuItemClick} className="p-ripple flex m-0 md:ml-5 px-0 py-3 text-900 font-medium line-height-3">
+                                    <a href="#events" onClick={toggleMenuItemClick} className="p-ripple flex m-0 md:ml-5 px-0 py-3 text-900 font-medium line-height-3">
                                         <span>Мероприятия</span>
                                         <Ripple />
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#help" onClick={toggleMenuItemClick} className="p-ripple flex m-0 md:ml-5 px-0 py-3 text-900 font-medium line-height-3">
+                                    <a href="/help/" onClick={toggleMenuItemClick} className="p-ripple flex m-0 md:ml-5 px-0 py-3 text-900 font-medium line-height-3">
                                         <span>Помощь в сортировке</span>
                                         <Ripple />
                                     </a>
