@@ -59,8 +59,8 @@ const CarouselDemo = () => {
 
     return (
         <div className="grid p-fluid">
-            <div className="col-12">
-                <div className="card">
+            <div className="col-12 mt-4">
+                <div className="card pt-2 md:p-4">
                     <Carousel value={products} numVisible={3} numScroll={3} responsiveOptions={carouselResponsiveOptions} itemTemplate={carouselItemTemplate}></Carousel>
                 </div>
             </div>
